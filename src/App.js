@@ -1,6 +1,12 @@
+import Header from './components/Header'
+import Footer from './components/Footer'
+
 function App() {
   return (
-    <h1>oi</h1>
+    <div className='App'>
+      <Header />
+      <Footer />
+    </div>
   );
 }
 
