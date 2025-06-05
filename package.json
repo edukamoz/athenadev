@@ -3,6 +3,7 @@
   "version": "0.3.1",
   "private": true,
   "scripts": {
+    "install": "npm i --legacy-peer-deps",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

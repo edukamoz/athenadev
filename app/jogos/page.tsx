@@ -13,9 +13,9 @@ export default function JogosPage() {
   const games = [
     {
       id: "1",
-      title: "Flexbox e Grid",
+      title: "Flexbox",
       description: "Aprenda os fundamentos da lógica de programação através de desafios interativos e puzzles.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/images/flexbox-css.png?height=200&width=300",
       difficulty: "Iniciante" as const,
       duration: "30 min",
       players: 1250,
