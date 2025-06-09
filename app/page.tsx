@@ -1,9 +1,8 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Gamepad2, Code, Users, Trophy, ArrowRight, Play } from "lucide-react"
+import { Gamepad2, Code, Brain, Trophy, ArrowRight, Play } from "lucide-react"
 import Link from "next/link"
 import { InteractiveBackground } from "@/components/interactive-background"
-import { TeamSection } from "@/components/team-section"
 
 /**
  * Página inicial da AthenaDev
@@ -25,14 +24,14 @@ export default function HomePage() {
       description: "Explore diferentes linguagens de programação com exercícios práticos e projetos reais.",
     },
     {
-      icon: Users,
-      title: "Comunidade Ativa",
-      description: "Conecte-se com outros desenvolvedores, compartilhe conhecimento e cresça junto com a comunidade.",
+      icon: Brain,
+      title: "Aprendizado Personalizado",
+      description: "Sistema inteligente que adapta o conteúdo ao seu ritmo e nível de conhecimento.",
     },
     {
       icon: Trophy,
-      title: "Sistema de Conquistas",
-      description: "Acompanhe seu progresso com conquistas, rankings e certificados de conclusão.",
+      title: "Rankings Competitivos",
+      description: "Compete com outros desenvolvedores, suba no ranking e mostre suas habilidades.",
     },
   ]
 
@@ -108,9 +107,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Seção da Equipe */}
-      <TeamSection />
 
       {/* Seção Call to Action */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/50" aria-labelledby="cta-title">
