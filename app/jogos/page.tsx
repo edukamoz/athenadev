@@ -12,7 +12,7 @@ export default function JogosPage() {
   // Dados mockados dos jogos
   const games = [
     {
-      id: "1",
+      id: "https://flexboxfroggy.com/",
       title: "Flexbox",
       description: "Aprenda os fundamentos da lógica de programação através de desafios interativos e puzzles.",
       image: "/images/flexbox-css.png?height=200&width=300",
